@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+     <div class="main">
+        <div class="input-box">
+            <img src="logo.svg" alt="x" style="width: 30px; ">
+            <div class="input">
+                <div class="input-text">
+                    <form>
+                        <textarea id="input-text" placeholder="Ingrese el texto aqui"></textarea>
+                    </form>
+                </div>
+                <div class="buttons-box">
+                    <div class="warning-text">
+                        
+                        <p style="color: rgb(117, 112, 112)"> 
+                            <img src="warning.svg" alt="warning"> 
+                            Solo letras minúsculas y sin acentos
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="encrypt-button">Encriptar</button>
+                        <button class="decrypt-button">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="encrypted-box">
+            <img src="muñeco.svg" alt="muñeco" class="muñeco">
+            <h2
+                style="text-align: center; font-weight: bold; font-size: 1.5rem"
+            >
+                Ningún mensaje fue encontrado
+            </h2>
+            <p
+                style="text-align: center;"
+            >
+                Ingresa el texto que desees encriptar o desencriptar
+            </p>
+            <button class="copy-button" onclick="copiarTexto()" style="display: none;">Copiar</button>    
+        </div>
+     </div>
+</body>
+</html>
+
+<!-- Mensaje:
+ 
+fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
+
+-->
